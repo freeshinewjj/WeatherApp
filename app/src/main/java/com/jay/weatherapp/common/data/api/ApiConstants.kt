@@ -6,5 +6,5 @@ object ApiConstants {
     const val DEFAULT_READ_TIMEOUT = 10000L
     const val DEFAULT_CONN_TIMEOUT = 10000L
     const val API_KEY_NAME = "appid"
-    const val API_KEY = "0dcdc0f1f36c69a94a6d1fce754a2977"
+    const val API_KEY = "yourkeyhere"
 }
