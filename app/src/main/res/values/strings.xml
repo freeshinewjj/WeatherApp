@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="weather_help">If location permission is available,will see weather for your location by default. If not, if last search is available, weather for last search will be presented.</string>
+    <string name="search_help">city or city,country</string>
+    <string name="search">Search</string>
+    <string name="location_permission_guide">In order to show weather for current location for you, please grant location permission in system setting...</string>
+    <string name="city_not_found">Opos… City not found</string>
+    <string name="general_error">An error has occurred.</string>
+</resources>

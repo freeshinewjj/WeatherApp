@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.jay.weatherapp.weather.ui.HomeFragment"
+        android:label="Weather" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.jay.weatherapp.setting.SettingFragment"
+        android:label="Setting" />
+</navigation>
