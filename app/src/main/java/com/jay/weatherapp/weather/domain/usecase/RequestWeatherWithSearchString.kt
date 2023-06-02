@@ -21,7 +21,8 @@ class RequestWeatherWithSearchString @Inject constructor(
             country = parts[2]
 
         val searchParameter = SearchParameter(name, state, country)
+        val weather = repository.queryWeather(searchParameter)
         userPrefRepository.saveSearchParameter(searchParameter)
-        return repository.queryWeather(searchParameter)
+        return weather
     }
 }
